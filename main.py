@@ -6,6 +6,9 @@ import datetime as dt
 #definition
 #paradox: days where vix and spy move the same direction
 
+#goal:
+#      find all occurneces of up/down days following a paradox,looking for high probabilities
+
 #first get pct_change of vix and spy to determine direction ez
 start = dt.datetime(1990,1,2)
 end = dt.datetime(2022,9,15)
